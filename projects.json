@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Match Report Generator",
+        "image":"images/match_report_generator.png",
+        "description":"**Purpose:** Dashboard to quantitatively analyze the performance of two teams and their players during a game.\n\nThe data are scraped from **Fbref.com** trough **Beatiful soup** and than processed and organized with **pandas** in csv files. \n\nThe visualization allow the user to select the home and away teams in the first page. On the second page the dashboard list the match details such as lineups, coaches and used schemes. On the same page the user can inspect the team statistics. Finally in 'Player Overview' page the user can compare two players with a radar chart.",
+        "button_label":"Visit the dashboard",
+        "url":"https://public.tableau.com/app/profile/edoardo.marchetti/viz/FootballAnalysis-SerieA22-23MatchReportGeneratorv4/FirstPage",
+        "tags":["Tableau", "SerieA", "Tableau For Football Data Analyst", "Python", "Pandas", "Beatiful soup", "Data Scraping"]
+    },
+    {
+        "name":"Scouting Dashboard",
+        "image":"images/scouting_dashboard.png",
+        "description":"**Purpose:** Dashboard to optimize player research across the big 5 eurpean leagues.\n\nThe project is organized into 3 sections:\n\n 1) **Where is the talent?** Imagining a scenario in which you have to decide which country to send a scout to, the first page shows an overview of the top 5 European leagues. On the left there is a map which indicates the number of players present in the championship, on the right you can see the distribution of them by age role and two top 5.\n2) **Who is the best?** Once you have chosen the nation to explore, the second page allows you to compare the players in the championship. The Cartesian axes allow you to compare players on two metrics, while the table can be used to view multiple metrics together.\n3) **Can this player improve the my team?** The last page shows how the player performs compared to his league average and compared to the average of Man City players.",
+        "button_label":"Visit the dashboard",
+        "url":"https://public.tableau.com/app/profile/edoardo.marchetti/viz/CityGroup-ScoutingdashboardOnlinev2/WhereIstheTalent?publish=yes",
+        "tags":["Tableau", "Scouting", "Euro Big5", "Python", "Pandas", "Beatiful soup", "Data Scraping"]
+    },
+    {
+        "name":"Playing Style Analysis",
+        "image":"images/wyscout_fda.png",
+        "description":"**Purpose:** Cluster players based on their playing style extracted from sequences of events.\n\n Starting from teams' possesion sequence we extracted the players' sequences.\nThan the players' sequences are converted into a first order Markov chain to identify his playing style. Once created the probability matrix for each players, these are used to fit the agglomerative clustring algorithm. 8 different clusters are identified among the Serie A 22/23 players. To prove the quality of the methodology also the Serie B 22/23 players were clustered obtaining promising results.",
+        "button_label":"Download the presentation",
+        "url":"https://drive.google.com/uc?export=download&id=1DOe17cWcW9XIf3tXja4wRxntXfjZ4PVe",
+        "tags":["Wyscout", "SerieA", "SerieB","Player Analsis", "Python", "Pandas", "Clustering","Agglomerative Clustering", "Data Engineering", "Scikit-learn", "Markov Chain"]
+    }
+]
