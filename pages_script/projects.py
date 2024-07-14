@@ -5,7 +5,8 @@ from utils.utils import read_json
 
 st.set_page_config(
     page_title='My Projects',
-    layout='wide'
+    layout='wide',
+    initial_sidebar_state="expanded"
 )
 st.title('My projects')
 
