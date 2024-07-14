@@ -27,6 +27,10 @@ for idx, p in enumerate(projects):
             st.link_button(p['button_label'], url=p['url'])
 
         with image_col:
-            st.image(p['image'])
+            media = p['media']
+            if media['type'] == 'image':
+                st.image(media['path'])
+            else:
+                st.video(media['path'], loop=True)
 
         
