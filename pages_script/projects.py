@@ -31,6 +31,6 @@ for idx, p in enumerate(projects):
             if media['type'] == 'image':
                 st.image(media['path'])
             else:
-                st.video(media['path'], loop=True)
+                st.video(media['path'], loop=True, autoplay=True)
 
         
