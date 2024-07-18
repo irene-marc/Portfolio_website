@@ -3,7 +3,7 @@
         "name":"Football Data Scientist",
         "start": "04/24",
         "end": "05/24",
-        "institution":"SICS & Soccerment",
+        "institution":"SICS - in collaboration with Soccerment",
         "media":{
         "type":"image",
         "path":"images/home/sics.png"
@@ -39,7 +39,7 @@
         "name":"Match Analyst",
         "start": "07/24",
         "end": "09/24",
-        "institution":"FIGC",
+        "institution":"FIGC - Federazione Italiana Giuco Calcio",
         "media":{
         "type":"image",
         "path":"images/home/figc.png"
