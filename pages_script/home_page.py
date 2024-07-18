@@ -102,10 +102,10 @@ with presentation_col:
     # Display the HTML in Streamlit
     st.write(html, unsafe_allow_html=True)
 
+
+
+
 st.markdown('<br><br><br><br><br>', unsafe_allow_html=True)
-
-
-
 st.markdown('## 🧑🏻‍💼 Working Experience')
 
 work_experince = read_json(osp.join('working_experience.json'))
@@ -153,6 +153,7 @@ for i, we in enumerate(work_experince):
                 st.markdown("<br>", unsafe_allow_html=True)
 
 
+st.markdown('<br><br><br><br><br>', unsafe_allow_html=True)
 st.markdown('## 🧑‍🎓 Education')
 
 education = read_json(osp.join('education.json'))
@@ -191,6 +192,49 @@ for i, e in enumerate(education):
                 st.markdown(f"### {e['name']}")
                 st.markdown(f"{e['description']}")
                 st.markdown(f"**Thesis title** {e['thesis']}")
+                
+                
+                st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown('<br><br><br><br><br>', unsafe_allow_html=True)
+st.markdown('## ⚽ Extra Learning')
+
+extra_learning = read_json(osp.join('extra_learning.json'))
+
+# Sort the list
+extra_learning = sort_by_dates(extra_learning)
+
+
+for i, e in enumerate(extra_learning):
+    #st.markdown('<br>', unsafe_allow_html=True)
+    with sc(key=f'el_{i}', css_styles=["""div[data-testid="stHorizontalBlock"]:first-of-type {
+                                        border: 1px solid #335384;
+                                        border-radius: 20px;
+                                        padding:15px;
+                                        padding-top:30px;
+                                        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    }
+    """]):
+        with st.container():
+            img_col, text_col = st.columns([0.1,0.9], gap='medium', vertical_alignment='top')
+
+            with img_col:
+                with sc(key=f'exp_img_{i}', css_styles=["""img{
+                                        margin-top:15px;                                        
+                }
+                """]):
+                    st.image(e['media']['path'])
+            
+            with text_col:
+                start_transformed = transform_date(e['start'])
+                end_transformed = transform_date(e['end'])
+                e['display_period'] = f"{start_transformed} - {end_transformed}"
+
+                st.markdown(f"<span style='color:{LIGHT_GRAY}; font-weight:bold; white-space: pre;'>{e['institution']}</span> | <span style='color:{LIGHT_GRAY};'>{e['display_period']} </span> ", unsafe_allow_html=True)
+                st.markdown(f"### {e['name']}")
+                st.markdown(f"{e['description']}")
+                if e['project']:
+                    st.markdown(f"**Project** {e['project']}")
                 
                 
                 st.markdown("<br>", unsafe_allow_html=True)

@@ -10,7 +10,8 @@ __pycache__/
 *.so
 
 #Hide folder
-.*/
+.portfolio/
+.streamlit/secrets.toml
 
 # Distribution / packaging
 .Python
