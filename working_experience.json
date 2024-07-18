@@ -1,0 +1,60 @@
+[
+    {
+        "name":"First Team Collaborator",
+        "start": "08/23",
+        "end": "06/24",
+        "display_period":"08/23 - Present",
+        "company":"ASD Tiber",
+        "media":{
+        "type":"image",
+        "path":"images/home/tiber.png"
+        },
+        "description":"* Assistant coach.\n* Filming of matches and editing of highlights.\n* Data collection from match videos and creation of reports using graphs and dashboards.",
+        "hard_skills":["Python", "DaVinci Resolve", "Tableau"],
+        "soft_skills":["Organization", "Leadership", "Analysis"],
+        "related_projects":["Match Analysis"]
+    },
+    {
+        "name":"Data Science Internship",
+        "start": "02/23",
+        "end": "06/23",
+        "company":"Gymnasio srl",
+        "media":{
+        "type":"image",
+        "path":"images/home/gymnasio.png"
+        },
+        "description":"* Construction of datasets for Activity Recognition and Video Segmentation tasks in the Yoga field.\n* Development and testing of Machine Learning and Deep Learning models for Activity Recognition and Video Segmentation tasks ",
+        "hard_skills":["Python", "Pytorch"],
+        "soft_skills":["Team working","Ability to achieve set objectives", "Present ideas to the team"],
+        "related_projects":[]
+    },
+    {
+        "name":"u9 Coach",
+        "start": "09/23",
+        "end": "06/24",
+        "company":"Olimpia Umbria",
+        "media":{
+        "type":"image",
+        "path":"images/home/olimpia_umbria.png"
+        },
+        "description":"Responsible for 15 children between 6 and 9 years old. ",
+        "hard_skills":[],
+        "soft_skills":["Planning and organization of training, relations with parents and society."],
+        "related_projects":[]
+    },
+    {
+        "name":"Coding Teacher",
+        "start": "09/23",
+        "end": "-",
+        "company":"Coding Giants",
+        "media":{
+        "type":"image",
+        "path":"images/home/coding_giants.png"
+        },
+        "description":"* Management of 4 courses for programming for children aged 7-9 and 10-12. \n* Distance learning classes",
+        "hard_skills":[],
+        "soft_skills":["Communication skills","Knowing how to react to unexpected events in a short time","Managing a group."],
+        "related_projects":[]
+    }
+    
+]

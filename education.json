@@ -1,0 +1,29 @@
+[
+    {
+        "name":"MSc Data Science and Engineering",
+        "start": "10/21",
+        "end": "04/24",
+        "grade":"110/110",
+        "institution":"Polytechnic of Turin",
+        "media":{
+        "type":"image",
+        "path":"images/home/polito.png"
+        },
+        "description":"* Machine Learning & Deep Learning\n* Data Analysis & Visualization\n* Data Ethics and Innovation Management",
+        "thesis":"3DYogaSeg: A New Dataset and Benchmark for Skeleton-Based Action Recognition and Segmentation in yoga videos"
+    },
+    {
+        "name":"BSc Computer Engineering",
+        "start": "09/18",
+        "end": "10/21",
+        "grade":"110/110 cum laude",
+        "institution":"University of Perugia",
+        "media":{
+        "type":"image",
+        "path":"images/home/unipg.png"
+        },
+        "description":"* Fundamentals of programming and database\n* Introduction to AI\n* Software development",
+        "thesis":"Creation and analysis of methods based on computer vision strategies for inter-row detection in agricultural robotics applications"
+    }
+
+]
