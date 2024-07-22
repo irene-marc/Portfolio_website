@@ -235,6 +235,8 @@ for i, e in enumerate(extra_learning):
                 st.markdown(f"{e['description']}")
                 if e['project']:
                     st.markdown(f"**Project** {e['project']}")
+                if 'url in e:
+                    st.link_button('Certification', url=e['url'])
                 
                 
                 st.markdown("<br>", unsafe_allow_html=True)
