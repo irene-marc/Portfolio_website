@@ -43,6 +43,11 @@ def compute_duration(start_str, end_str):
     months = total_months % 12
     return f"{years} years {months} months"
 
+# Convert the image to base64
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
 #MARK: Hero
 
 image_hero_col, presentation_col = st.columns(2, gap='large', vertical_alignment='center')
@@ -81,26 +86,25 @@ with presentation_col:
             icon='github',
             write=False
         )
+    
+    external_pages = read_json(osp.join('external_links.json'))
+    ep_cols = st.columns(8)
+    print(external_pages)
+
+    for (i,ep) in enumerate(external_pages):
+        with ep_cols[i]:
+            # Get the base64 string
+            base64_image = get_base64_image(ep['icon'])
+
+            # Create the HTML for the clickable image
+            html = f'<a href="{ep["url"]}" target="_blank"><img src="data:image/png;base64,{base64_image}" width="100"></a>'
+
+            # Display the HTML in Streamlit
+            st.write(html, unsafe_allow_html=True)                                                                      
 
 
 
-    # Define the image path and the URL
-    image_path = osp.join('images', 'home', 'LI-In-Bug.png')
-    linkedin_url = 'https://www.linkedin.com/in/edoardo-marchetti-907a2917a/'
-
-    # Convert the image to base64
-    def get_base64_image(image_path):
-        with open(image_path, "rb") as img_file:
-            return base64.b64encode(img_file.read()).decode()
-
-    # Get the base64 string
-    base64_image = get_base64_image(image_path)
-
-    # Create the HTML for the clickable image
-    html = f'{github_mention} <a href="{linkedin_url}" target="_blank"><img src="data:image/png;base64,{base64_image}" width="25"></a>'
-
-    # Display the HTML in Streamlit
-    st.write(html, unsafe_allow_html=True)
+    
 
 
 
