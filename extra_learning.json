@@ -3,7 +3,7 @@
         "name":"Football Data Scientist",
         "start": "04/24",
         "end": "05/24",
-        "institution":"SICS - in collaboration with Soccerment",
+        "institution":"SICS & Soccerment",
         "media":{
         "type":"image",
         "path":"images/home/sics.png"
@@ -20,6 +20,7 @@
         "type":"image",
         "path":"images/home/wylab.png"
         },
+        "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Attestato%207°%20FDA_Marchetti%20Edoardo%5B2924%5D.pdf?raw=true",
         "description":"* Football data analysis\n* Data Engineering & Visualization\n * Machine Learning & Clustering\n * WyScout data",
         "project":"Analysis of footballers' playing style based on sequences of events"
     },
@@ -32,6 +33,7 @@
         "type":"image",
         "path":"images/home/wylab.png"
         },
+        "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Tableua_Data%20Visualization%20for%20Football%20Data%20Analyst.pdf?raw=true",
         "description":"* Tableau\n* Data Scraping & Engineering",
         "project":"Match Report Generator, dashboard to generate post-match reports of the matches of the 2022/2023 Serie A season"
     },
@@ -39,7 +41,7 @@
         "name":"Match Analyst",
         "start": "07/24",
         "end": "09/24",
-        "institution":"FIGC - Federazione Italiana Giuco Calcio",
+        "institution":"FIGC",
         "media":{
         "type":"image",
         "path":"images/home/figc.png"
