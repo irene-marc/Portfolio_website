@@ -1,8 +1,8 @@
 [
     {
         "name":"MSc Data Science and Engineering",
-        "start": "2018",
-        "end": "2023",
+        "start": "09/18",
+        "end": "06/23",
         "grade":"100/100",
         "institution":"Liceo Scientifico, Salvatorelli-Moneta",
         "media":{
@@ -13,8 +13,8 @@
     },
     {
         "name":"Facoltà di Digital Marketing",
-        "start": "2023",
-        "end": "In corso",
+        "start": "09/23",
+        "end": "-",
         "institution":"Unimore",
         "media":{
         "type":"image",
