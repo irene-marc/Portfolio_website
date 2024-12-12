@@ -199,7 +199,7 @@ for i, e in enumerate(education):
                 st.markdown("<br>", unsafe_allow_html=True)
 
 st.markdown('<br><br><br><br><br>', unsafe_allow_html=True)
-st.markdown('## ⚽ Extra Learning')
+st.markdown('## Extra Learning')
 
 extra_learning = read_json(osp.join('extra_learning.json'))
 
