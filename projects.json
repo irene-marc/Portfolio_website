@@ -37,7 +37,6 @@
         "name":"Scouting Serie A",
         "media":{"type":"video",
         "path":"images/projects/scouting_serieA.mp4"
-
         },
         "description":"**This project was considered the best during the selection process for an internship with a French professional team.**\n\n**Purpose:** Create a web app to analyze players' performance during a whole season. \n\n In detail, open data made available by Statsbomb for the 2015/2016 season are preprocessed and organized in a local sqlite database. Within the app you will find 4 pages:\n* **Scouting SerieA**: the main page of the app where each sub-page is explained.\n* **Championship Overview**: an overview of the performance of all players from the 15/16 season.\n* **Player Report**: allows you to go into detail about the performance of an individual player of interest. In detail you can view minutage, shooting ability, passing accuracy, on ball ability, effectiveness in duels, defensive skills. Finally you can serach similar players.\n* **Custom Analysis**: on this page you will find a Tableau-like interface to create your own custom charts.\n* **Glossaries**: a list of available metrics and roles.\n\n",
         "button_label":"Download the project",
