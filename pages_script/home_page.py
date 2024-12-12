@@ -89,7 +89,6 @@ with presentation_col:
     
     external_pages = read_json(osp.join('external_links.json'))
     ep_cols = st.columns(8)
-    print(external_pages)
 
     for (i,ep) in enumerate(external_pages):
         with ep_cols[i]:
