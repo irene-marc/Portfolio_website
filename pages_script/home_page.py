@@ -69,14 +69,12 @@ with image_hero_col:
                                             box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
                                         }
                                         """]):
-        st.image(osp.join('images', 'home', 'profile_picture2.png'), width=300)
+        st.image(osp.join('images', 'home', 'fotocv.jpg'), width=300)
 
 with presentation_col:
-    st.title("Edoardo Marchetti", anchor=False)
-    st.write(
-        "Graduated in **Data science and Engineering at the Polytechnic of Turin** 📊. Sports enthusiast 🏆. I love to realize projects that allows me to combine the sporting world with my academic background through data analysis and AI 🤖. Visit 'My projects' page to discover what I realized and feel free to contact me 😉"
-    )
-    st.write("📧 edoardomarchetti2@gmail.com")
+    st.title("Irene Marchetti", anchor=False)
+    st.write("Sono una studentessa di 20 anni, attualmente iscritta al corso di Digital Marketing. Ho praticato sport a livello agonistico per 13 anni,sviluppando una forte disciplina e determinazione. Oltre agli studi,coltivo hobby creativi come il cucito e l'uncinetto, che mi permettono di esprimere la mia creatività.  Mi affascina molto marketing, sia dal punto di vista analitico che creativo, e sono entusiasta di mettermi in gioco in un contesto professionale." )
+    st.write("📧 irenemrchetti27@gmail.com")
 
     
     
@@ -110,7 +108,7 @@ with presentation_col:
 
 
 st.markdown('<br><br><br><br><br>', unsafe_allow_html=True)
-st.markdown('## 🧑🏻‍💼 Working Experience')
+st.markdown('## 👩🏻‍💼 Working Experience')
 
 work_experince = read_json(osp.join('working_experience.json'))
 
