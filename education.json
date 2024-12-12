@@ -1,26 +1,29 @@
 [
     {
-        "name":"MSc Data Science and Engineering",
+        "name":"Liceo Scientifico",
         "start": "09/18",
         "end": "06/23",
         "grade":"100/100",
-        "institution":"Liceo Scientifico, Salvatorelli-Moneta",
+        "institution":"Salvatorelli-Moneta",
         "media":{
         "type":"image",
         "path":"images/home/polito.png"
-        }
+        },
+        "description":"",
+        "thesis":""
         
     },
-    {
+    
+       {
         "name":"Facoltà di Digital Marketing",
-        "start": "09/23",
-        "end": "-",
-        "institution":"Unimore",
+        "start": "2023",
+        "end": "In corso",
+        "institution":"University of Perugia",
         "media":{
         "type":"image",
         "path":"images/home/unipg.png"
         },
-        "description": "*Misurazione dele performance delle imprese in ambiente digitale\n*  Profilare utenti omni-channel\n*  Costruzione contenuti -content e visual- di comunicazione destinati ai social media e alle piattaforme presenti in rete\n* Partecipazione alla ri-definizione dei prodotti/servizi erogati dalle imprese e progettare e gestire piattaforme di e-retailing, e-commerce e marketplace digitali.\n*",
+        "description":"",
+        "thesis":""
     }
-
 ]

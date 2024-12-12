@@ -1,53 +1,29 @@
 [
     {
-        "name":"Football Data Scientist",
-        "start": "04/24",
-        "end": "05/24",
-        "institution":"SICS & Soccerment",
+        "name":"Vacanza Studio",
+        "start": "05/22",
+        "end": "05/22",
+        "institution":"University College Dublin, Dublino",
         "media":{
         "type":"image",
         "path":"images/home/sics.png"
         },
-        "description":"* Opta event data\n* Skill Corner tracking data\n * Data Engineering\n * Advance footbal metrics",
+        "description":"* Con conseguimento finale di certificazione inglese ATC livello C1",
         "project":"",
         "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Marchetti%20Edoardo.pdf"
     },
     {
-        "name":"Football Data Analyst",
-        "start": "10/23",
-        "end": "01/24",
-        "institution":"WyLab",
+        "name":"ERASMUS+",
+        "start": "03/22",
+        "end": "04/22",
+        "institution":"IES a Pinguela, Monforte des Lemos, Spagna",
         "media":{
         "type":"image",
         "path":"images/home/wylab.png"
         },
         "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Attestato%207°%20FDA_Marchetti%20Edoardo%5B2924%5D.pdf?raw=true",
-        "description":"* Football data analysis\n* Data Engineering & Visualization\n * Machine Learning & Clustering\n * WyScout data",
-        "project":"Analysis of footballers' playing style based on sequences of events"
-    },
-    {
-        "name":"Tableau: Data Visualization for Football Data Analysis",
-        "start": "06/23",
-        "end": "07/23",
-        "institution":"WyLab",
-        "media":{
-        "type":"image",
-        "path":"images/home/wylab.png"
-        },
-        "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Tableua_Data%20Visualization%20for%20Football%20Data%20Analyst.pdf?raw=true",
-        "description":"* Tableau\n* Data Scraping & Engineering",
-        "project":"Match Report Generator, dashboard to generate post-match reports of the matches of the 2022/2023 Serie A season"
-    },
-    {
-        "name":"Match Analyst",
-        "start": "07/24",
-        "end": "-",
-        "institution":"FIGC",
-        "media":{
-        "type":"image",
-        "path":"images/home/figc.png"
-        },
-        "description":"The course aims to provide the necessary training and cultural supports to individuals who may be called upon to carry out, on behalf of clubs, activities of technical-tactical analysis, video-digital archiving and collection of statistical data of players and teams.",
+        "description":"",
         "project":""
     }
+    
 ]
