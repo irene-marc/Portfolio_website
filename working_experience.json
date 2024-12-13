@@ -10,9 +10,9 @@
         "path":"images/home/pattinaggio.jpeg"
         },
         "description":" * Allenatrice qualificata FISR \n* Mi sono occupata di gruppi di atleti di vario livello ed età",
-        "hard_skills": [""],
+        "hard_skills": [],
         "soft_skills":["Organizzazione", "Leadership", "Comunicazione"],
-        "related_projects":[""]
+        "related_projects":[]
     },
     {
         "name":"Animatrice per Bambini in Centro Estivo",
@@ -24,7 +24,7 @@
         "path":"images/home/centroestivo.png"
         },
         "description":"Durante gli anni del Liceo, nella stagione estiva ho semrpe lavorato presso un Centro Estivo nel ruolo di animatrice, ottenendo sempre più responsabilità durante gli anni. ",
-        "hard_skills":[""],
+        "hard_skills":[],
         "soft_skills":["Team working","Comunicazione", "Creatività", "Problem Solving", "Empatia", "Adattabilità"],
         "related_projects":[]
     }

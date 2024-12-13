@@ -1,14 +1,6 @@
 [
     {
-        "icon":"images/home/tableau.png",
-        "url": "https://public.tableau.com/app/profile/edoardo.marchetti/vizzes"
-    },
-    {
         "icon":"images/home/LI-In-Bug.png",
         "url": "https://www.linkedin.com/in/edoardo-marchetti-907a2917a/"
-    },
-    {
-        "icon":"images/home/github.png",
-        "url": "https://github.com/EdoardoMarchetti"
     }
 ]
