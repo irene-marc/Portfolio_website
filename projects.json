@@ -20,5 +20,16 @@
         "button_label":"Leggi l'ebook",
         "url":"https://drive.google.com/file/d/1iOFJVT3XQHIdUu_KnljmIj0aXqUUCJv6/view?usp=sharing",
         "tags":["Report", "R Studio", "Analisi dei dati"]
-    }  
+    },
+    {
+         "name":"Trail Reel: la nuova funzione di Instagram",
+         "media":{
+         "type":"image",
+         "path":"images/projects/copertina_report.jpg"
+         },
+         "description":"Instagram ha appena lancianto una nuova funzione: Trail Reel. Leggi di più e scopri cosa sono e come utilizzarli",
+         "button_label":"Leggi di più",
+         "url":"    https://drive.google.com/file/d/1oGGWAAMKeX-Jp33DZmSUsTKLwTdCOOt8/view?usp=sharing",
+         "tags":["Instagram", "Reel", "Nuove funzioni"]
+     }
 ]
