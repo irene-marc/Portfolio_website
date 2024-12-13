@@ -9,8 +9,8 @@
         "type":"image",
         "path":"images/home/pattinaggio.jpeg"
         },
-        "description":" * Allenatrice qualificata FISR \n* Mi sono occupata di gruppi di atleti di vario livello ed età",
-        "hard_skills": [],
+        "description":"Dopo una carriera sportiva agonistica di 13 anni, sono diventata un'allenatrice qualificata FISR. Mi sono occupata di gruppi di atleti di vario livello ed età",
+        "hard_skills": [""],
         "soft_skills":["Organizzazione", "Leadership", "Comunicazione"],
         "related_projects":[]
     },

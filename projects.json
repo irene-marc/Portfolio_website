@@ -16,10 +16,59 @@
         "type":"image",
         "path":"images/projects/copertina_report.jpg"
         },
+<<<<<<< HEAD
         "description":"L’effetto delle controversie di marketing di Chiara Ferragni sulla percezione del brand e sulle intenzioni di acquisto: il caso Pandoro-Gate. Attraverso un questionario e l'analisi dei dati ottenuti è stato possibile mostrare come gli scandali hanno influito sulla percezione del brand, e individuare un profilo di cliente target sulla quale costruire una strategia di mercato volta all'acquisto.",
         "button_label":"Leggi il Report",
         "url":"https://drive.google.com/file/d/1hm3aDBVs-GWC7xOQ6W_vh3YRtnfZewIQ/view?usp=sharing", 
         "tags":["R Studio", "Anlalisi dei Dati", "Report"]
+=======
+        "description":"**Purpose:** Dashboard to optimize player research across the big 5 eurpean leagues.\n\nThe project is organized into 3 sections:\n\n 1) **Where is the talent?** Imagining a scenario in which you have to decide which country to send a scout to, the first page shows an overview of the top 5 European leagues. On the left there is a map which indicates the number of players present in the championship, on the right you can see the distribution of them by age role and two top 5.\n2) **Who is the best?** Once you have chosen the nation to explore, the second page allows you to compare the players in the championship. The Cartesian axes allow you to compare players on two metrics, while the table can be used to view multiple metrics together.\n3) **Can this player improve the my team?** The last page shows how the player performs compared to his league average and compared to the average of Man City players.",
+        "button_label":"Visit the dashboard",
+        "url":"https://public.tableau.com/app/profile/edoardo.marchetti/viz/CityGroup-ScoutingdashboardOnlinev2/WhereIstheTalent?publish=yes",
+        "tags":["Tableau", "Scouting", "Euro Big5", "Python", "Pandas", "Beatiful soup", "Data Scraping"]
+    },
+    {
+        "name":"Playing Style Analysis",
+        "media":{
+        "type":"image",
+        "path":"images/projects/wyscout_fda.png"
+        },
+        "description":"**Purpose:** Cluster players based on their playing style extracted from sequences of events.\n\n Starting from teams' possesion sequence we extracted the players' sequences.\nThan the players' sequences are converted into a first order Markov chain to identify his playing style. Once created the probability matrix for each players, these are used to fit the agglomerative clustring algorithm. 8 different clusters are identified among the Serie A 22/23 players. To prove the quality of the methodology also the Serie B 22/23 players were clustered obtaining promising results.",
+        "button_label":"Download the presentation",
+        "url":"https://drive.google.com/uc?export=download&id=1DOe17cWcW9XIf3tXja4wRxntXfjZ4PVe",
+        "tags":["Wyscout", "SerieA", "SerieB","Player Analysis", "Python", "Pandas", "Clustering","Agglomerative Clustering", "Data Engineering", "Scikit-learn", "Markov Chain"]
+    },
+    {
+        "name":"Scouting Serie A",
+        "media":{"type":"video",
+        "path":"images/projects/scouting_serieA.mp4"
+        },
+        "description":"**This project was considered the best during the selection process for an internship with a French professional team.**\n\n**Purpose:** Create a web app to analyze players' performance during a whole season. \n\n In detail, open data made available by Statsbomb for the 2015/2016 season are preprocessed and organized in a local sqlite database. Within the app you will find 4 pages:\n* **Scouting SerieA**: the main page of the app where each sub-page is explained.\n* **Championship Overview**: an overview of the performance of all players from the 15/16 season.\n* **Player Report**: allows you to go into detail about the performance of an individual player of interest. In detail you can view minutage, shooting ability, passing accuracy, on ball ability, effectiveness in duels, defensive skills. Finally you can serach similar players.\n* **Custom Analysis**: on this page you will find a Tableau-like interface to create your own custom charts.\n* **Glossaries**: a list of available metrics and roles.\n\n",
+        "button_label":"Download the project",
+        "url":"https://drive.google.com/uc?export=download&id=1NbO_NS14o9scPUAahvncXZPWkzVi0YCy",
+        "tags":["Statsbomb", "SerieA", "Scouting", "Player Analysis", "Scouting", "Python", "Streamlit" ,"Pandas", "PCA","Similarity","Data Viz", "Data Engineering", "Plotly"]
+    },
+    {
+        "name":"Performance Dashboard",
+        "media":{"type":"video",
+        "path":"images/projects/performance_dashboard.mp4"
+
+        },
+        "description":"**This project was carried out at the request of an Italian professional club.**\n\n**Purpose:** Create a web app to analyze physical performance from GPS data. \n\n The app allows for two types of analysis:\n + Player report: evaluate the performance of an individual player along a user-defined time interval. For each metric, a comparison is made with the team average. In addition, within the same time range, an analysis of speed and acceleration is done.\n + Session report: evaluate how the entire team performed within a specific session. ",
+        "button_label":"Visit the app",
+        "url":"https://performancedashboard.streamlit.app",
+        "tags":["GPS data", "Training analysis",  "Physical data", "Python", "Streamlit" ,"Pandas", "SQLITE", "Data Viz", "Data Engineering", "Plotly"]
+    },
+    {
+        "name":"Match Analysis",
+        "media":{"type":"video",
+        "path":"images/projects/event_tagging.mp4"
+        },
+        "description":"**Purpose:** Create an interface that allow to collect data and analyze the video of the match. \n\n The software is divided into two macro sections : Live and Post-Match. The Live section allows to keep track of events that happen during the match and data collection is possible through two pages:\n* **Event tagger**: on this page you can collect event data by indicating three levels of detail i.e. game situation, presence of a cross, presence of a shot. In addition, it is also possible to indicate the area of the field where the event occurred. Thanks to a stopwatch, it is possible to synchronize the events with the video.\n* **Event tagger handcontrol**: the second page allows you to collect events with a lower level of detail, but in an easier way thanks to the help of a handcontrol. \n\nBoth pages can be used during the same data collection session. At the end of the match it is possible to download the data in .csv format and in .xml format readable by LiveTagPro so that it can be imported into the video analysis software.\n\nThe Post-Match section, on the other hand, consists of a single page that allows you to import the csv and the link to the video. Once the files have been uploaded and the required inputs entered, it is possible to review the tagged portions of the match.",
+        "button_label":"Visit the app",
+        "url":"https://event-tagger.streamlit.app",
+        "tags":["Tagging", "Video Analysis",  "Python", "Streamlit" ,"Pandas", "LiveTagPro", "xml", "csvs"]
+>>>>>>> 4e89d6b91145890bc829299f6cbccfbcf45c049e
     }
     
    

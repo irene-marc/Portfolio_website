@@ -87,7 +87,6 @@ with presentation_col:
     
     external_pages = read_json(osp.join('external_links.json'))
     ep_cols = st.columns(8)
-    print(external_pages)
 
     for (i,ep) in enumerate(external_pages):
         with ep_cols[i]:
@@ -106,7 +105,7 @@ with presentation_col:
 
 
 
-
+##MARK: WORK
 st.markdown('<br><br><br><br><br>', unsafe_allow_html=True)
 st.markdown('## 👩🏻‍💼 Working Experience')
 
@@ -144,13 +143,13 @@ for i, we in enumerate(work_experince):
 
                 st.markdown(f"<span style='color:{LIGHT_GRAY}; font-weight:bold; white-space: pre;'>{we['company']}</span>  |   <span style='color:{LIGHT_GRAY};'>{we['display_period']} ({duration})</span>", unsafe_allow_html=True)
                 st.markdown(f"### {we['name']}")
-                st.markdown(f"{we['description']}")
-                if we['hard_skills']:
-                    st.markdown(f"**Hard skills** : {', '.join(we['hard_skills'])}")
-                if we['soft_skills']:
-                    st.markdown(f"**Soft skills** : {', '.join(we['soft_skills'])}")
-                if we['related_projects']:
-                    st.markdown(f"**Related Projects** : {', '.join(we['related_projects'])}")
+                st.markdown(f"{we['description']}", unsafe_allow_html=True)
+                if len(we['hard_skills']) > 0:
+                    st.markdown(f"**Hard skills** : {', '.join(we['hard_skills'])}", unsafe_allow_html=True)
+                if len(we['soft_skills']) > 0:
+                    st.markdown(f"**Soft skills** : {', '.join(we['soft_skills'])}", unsafe_allow_html=True)
+                if len(we['related_projects']) > 0:
+                    st.markdown(f"**Related Projects** : {', '.join(we['related_projects'])}", unsafe_allow_html=True)
                 
                 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -190,10 +189,22 @@ for i, e in enumerate(education):
 
                 duration = compute_duration(e['start'], e['end'])
 
-                st.markdown(f"<span style='color:{LIGHT_GRAY}; font-weight:bold; white-space: pre;'>{e['institution']}</span>  | <span style='color:{LIGHT_GRAY};'>Grade: {e['grade']} | </span>  <span style='color:{LIGHT_GRAY};'>{e['display_period']} </span>", unsafe_allow_html=True)
+                string_to_show = []
+                institution_string = f"<span style='color:{LIGHT_GRAY}; font-weight:bold; white-space: pre;'>{e['institution']}</span>"
+                string_to_show.append(institution_string)
+                grade = e.get('grade', '')
+                if grade in e:
+                    grade_string =  f"<span style='color:{LIGHT_GRAY};'>Grade: {grade}"
+                    string_to_show.append(grade_string)
+                display_period_string = f" </span>  <span style='color:{LIGHT_GRAY};'>{e['display_period']} </span>"
+                string_to_show.append(display_period_string)
+
+                st.markdown(' | '.join(string_to_show), unsafe_allow_html=True)
                 st.markdown(f"### {e['name']}")
                 st.markdown(f"{e['description']}")
-                st.markdown(f"**Thesis title** {e['thesis']}")
+                thesis_title = e.get('thesis', '')
+                if thesis_title in e:
+                    st.markdown(f"**Thesis title** {thesis_title}")
                 
                 
                 st.markdown("<br>", unsafe_allow_html=True)
@@ -237,7 +248,7 @@ for i, e in enumerate(extra_learning):
                 st.markdown(f"{e['description']}")
                 if e['project']:
                     st.markdown(f"**Project** {e['project']}")
-                if 'url' in e:
+                if e.get('url', ''):
                     st.link_button('Certification', url=e['url'])
                 
                 
