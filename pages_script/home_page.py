@@ -73,8 +73,7 @@ with image_hero_col:
 
 with presentation_col:
     st.title("Irene Marchetti", anchor=False)
-    st.write("Sono una studentessa di 20 anni, attualmente iscritta al corso di Digital Marketing. Ho praticato sport a livello agonistico per 13 anni, sviluppando una forte disciplina e determinazione. Oltre agli studi, coltivo hobby creativi come il cucito e l'uncinetto, che mi permettono di esprimere la mia creatività. Mi affascina molto il marketing, sia dal punto di vista analitico che creativo, e sono entusiasta di mettermi in gioco in un contesto professionale." )
-    st.write("📧 irenemrchetti27@gmail.com")
+    st.write("Ho 20 anni e sono una studentessa di Digital Marketing. Il mio obiettivo è continuare a lavorare nel settore del marketing digitale, con un particolare interesse per l'analisi dei dati. Sono entusiasta di applicare le mie conoscenze e competenze universitarie in un ambito professionale. Credo sia un ambito dove posso combinare la mia passione per il marketing con il mio interesse per questi settori dinamici e in continua evoluzione.   ")
 
     
     
