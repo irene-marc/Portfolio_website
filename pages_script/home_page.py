@@ -73,7 +73,7 @@ with image_hero_col:
 
 with presentation_col:
     st.title("Irene Marchetti", anchor=False)
-    st.write("Ho 20 anni e sono una studentessa di Digital Marketing. Il mio obiettivo è continuare a lavorare nel settore del marketing digitale, con un particolare interesse per l'analisi dei dati. Sono entusiasta di applicare le mie conoscenze e competenze universitarie in un ambito professionale. Credo sia un ambito dove posso combinare la mia passione per il marketing con il mio interesse per questi settori dinamici e in continua evoluzione.   ")
+    st.write("Ho 20 anni e sono una studentessa di Digital Marketing. Il mio obiettivo è continuare a lavorare nel settore del marketing digitale, con un particolare interesse per l'analisi dei dati. Sono entusiasta di applicare le mie conoscenze e competenze universitarie in un ambito professionale. Credo sia un campo dove posso combinare la mia passione per il marketing con il mio interesse per questi settori dinamici e in continua evoluzione. ")
 
     
     
