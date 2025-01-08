@@ -29,6 +29,7 @@
         "name":"Certificazione Google Analytics",
         "start": "08/24",
         "end": "08/25",
+        "institution": "", 
         "media":{
         "type":"image",
         "path":"images/home/ga4.jpeg"
