@@ -37,6 +37,18 @@
         "url":"https://github.com/irene-marc/Certificates/blob/main/GA4.jpg",
         "description":"",
         "project":""
+    },
+    {
+        "name":"Certificazione Google Ads sulle misurazioni",
+        "start": "01/25",
+        "end": "01/26",
+        "institution": "", 
+        "media":{
+        "type":"image",
+        "path":"images/home/gads.jpg"
+        },
+        "url":"https://github.com/irene-marc/Certificates/blob/main/gads.certification.png",
+        "description":"",
+        "project":""
     }
-    
 ]
